@@ -1,3 +1,9 @@
+エイリアスで`./vendor/bin/sail`を`sail`に省略しています。
+
+```~/.zshrc
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+```
+
 localhostにアクセスするとジョブがキューにプッシュされます。
 http://localhost/
 
